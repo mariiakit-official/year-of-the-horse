@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081425">
+  <meta name="description" content="The Year of the Horse — a personal journey through courage, growth, ambition, freedom, and legacy, 2025–2054.">
+  <meta property="og:title" content="The Year of the Horse | A Life in Ten Chapters">
+  <meta property="og:description" content="Ten years. Ten symbols. One story still being written.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/2026.webp">
+  <title>The Year of the Horse | A Life in Ten Chapters</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#timeline">Skip to the timeline</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header shell">
+    <a class="brand" href="#top" aria-label="Back to top"><span class="brand-star" aria-hidden="true">✦</span> THE YEAR OF THE HORSE</a>
+    <nav aria-label="Main navigation"><a href="#story">My story</a><a href="#timeline">The years</a><a href="#closing">My legacy</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="line"></span> A PERSONAL JOURNEY · 2025—2054</p>
+        <h1 id="hero-title">A life in<br><em>ten chapters.</em></h1>
+        <p class="lead">Ten years. Ten symbols. One story of finding my way, choosing courage, and becoming the person I was meant to be.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#timeline">Explore my journey <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#story">Read my story <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-note">A reflection on my past, a celebration of my present, and a vision for a future I am working to create.</p>
+      </div>
+      <div class="hero-visual"><div class="hero-ring" aria-hidden="true"></div><img src="assets/2026.webp" alt="2026: The Horse — The Year of Courage, illustrated in gold and midnight blue" fetchpriority="high"><div class="hero-tag"><span>THE CHAPTER THAT CHANGED EVERYTHING</span><strong>2026 · COURAGE</strong></div></div>
+      <div class="hero-scroll" aria-hidden="true">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+    <section class="intro" id="story" aria-labelledby="story-title"><div class="shell intro-grid"><div><p class="eyebrow">THE STORY BEHIND THE SYMBOLS</p><h2 id="story-title">Not just the years.<br><em>The becoming.</em></h2></div><div class="intro-text"><p>My journey has never followed a straight line. I studied law, worked in public service, built a cleaning business, became a mother, and started over in technology. Every chapter taught me something about resilience, responsibility, and possibility.</p><p>In 2026, I chose a new direction through <strong>i.c.stars</strong>. I’m learning to lead, to build, and to trust myself—even while I’m still learning. The years ahead are <strong>hopes, not predictions</strong>: a future I want to work toward, one choice at a time.</p><p class="intro-signoff">My guiding idea: success matters, but being a good human being matters more.</p></div></div></section>
+    <section class="timeline-section shell" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-top"><div><p class="eyebrow">TEN SYMBOLS · ONE CONTINUOUS STORY</p><h2 id="timeline-title">Choose a chapter<span class="title-period">.</span></h2></div><p>Select any card to discover its fortune, reflection, and meaning.</p></div>
+      <div class="filter-bar" role="group" aria-label="Filter timeline by period"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All years <span>10</span></button><button class="filter" type="button" data-filter="past" aria-pressed="false">Past <span>01</span></button><button class="filter" type="button" data-filter="present" aria-pressed="false">Present <span>01</span></button><button class="filter" type="button" data-filter="near" aria-pressed="false">Near future <span>03</span></button><button class="filter" type="button" data-filter="far" aria-pressed="false">Long-range future <span>05</span></button></div>
+      <div class="card-grid" id="card-grid" aria-live="polite"></div>
+      <p class="timeline-footer"><span aria-hidden="true">✧</span> Every fortune is a direction, not a guarantee. Every chapter is still mine to write. <span aria-hidden="true">✧</span></p>
+    </section>
+    <section class="closing" id="closing" aria-labelledby="closing-title"><div class="shell closing-content"><p class="eyebrow">THE YEAR OF LEGACY · 2054</p><div class="closing-mark" aria-hidden="true">✦</div><h2 id="closing-title">May the bridge I build<br><em>help someone else cross.</em></h2><p>I hope to be remembered not only for what I achieved, but for the people I encouraged, the doors I helped open, and the love I gave to my family. My legacy is the connection between where I came from and what others can become.</p><a class="button button-outline" href="#timeline">Revisit the chapters ↑</a></div></section>
+  </main>
+  <footer class="site-footer shell"><span>THE YEAR OF THE HORSE · A PERSONAL VISION</span><span>2025—2054 · MADE WITH HOPE</span></footer>
+  <dialog class="story-dialog" id="story-dialog" aria-labelledby="dialog-title"><div class="dialog-layout"><div class="dialog-art"><img id="dialog-image" alt=""><span id="dialog-counter" class="dialog-counter"></span></div><div class="dialog-body"><button class="dialog-close" type="button" aria-label="Close chapter">✕</button><p id="dialog-period" class="eyebrow"></p><p id="dialog-year" class="dialog-year"></p><h2 id="dialog-title"></h2><p id="dialog-symbol" class="dialog-symbol"></p><div class="dialog-divider"></div><h3>MY FORTUNE</h3><p id="dialog-fortune" class="fortune"></p><h3>MY REFLECTION</h3><div id="dialog-reflection" class="reflection"></div><div id="dialog-details" class="dialog-details"></div><div class="dialog-controls"><button id="prev" type="button" aria-label="Previous chapter">← Previous</button><span id="dialog-position" aria-live="polite"></span><button id="next" type="button" aria-label="Next chapter">Next →</button></div></div></div></dialog>
+</body>
+</html>
