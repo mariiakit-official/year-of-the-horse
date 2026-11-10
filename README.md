@@ -2,6 +2,12 @@
 
 A standalone, responsive personal-storytelling website for GitHub Pages. It covers all **10 required years** (2025, 2026, 2027, 2028, 2029, 2034, 2039, 2044, 2049, and 2054) with a **year title, symbolic illustration, fortune, and reflection** for each year.
 
+## Live site
+
+**[View The Year of the Horse →](https://mariiakit-official.github.io/year-of-the-horse/)**
+
+https://mariiakit-official.github.io/year-of-the-horse/
+
 ## Deploy to GitHub Pages
 
 1. Create a **new public GitHub repository** (for example, `year-of-the-horse`).
